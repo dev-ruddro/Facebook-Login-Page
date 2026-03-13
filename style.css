@@ -6,10 +6,17 @@ img {
   height: 260px;
   width: 570px;
 }
+body {
+  background-color: azure;
+}
 .full-body {
   display: flex;
+  margin: 200px;
 }
 .login-container {
   display: flex;
   flex-direction: column;
+}
+.text-container {
+  background-color: azure;
 }
