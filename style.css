@@ -47,7 +47,7 @@ body {
   margin-left: 150px;
 }
 .right-side {
-  margin-right: 150px;
+  margin-right: 190px;
   margin-top: 110px;
 }
 .right-side input {
@@ -61,7 +61,7 @@ body {
   color: rgba(255, 255, 255, 0.957);
   border-radius: 5px;
   border: none;
-  background-color: rgba(9, 46, 183, 0.748);
+  background-color: rgba(14, 82, 255, 0.962);
   margin: 10px;
   padding: 15px;
   font-size: 20px;
