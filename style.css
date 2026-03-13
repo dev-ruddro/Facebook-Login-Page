@@ -1,22 +1,117 @@
 * {
   margin: 0;
   padding: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
 }
-img {
-  height: 260px;
-  width: 570px;
+.logo {
+  margin-top: 200px;
+  margin-left: 150px;
+}
+
+.logo img {
+  width: 300px;
+  height: auto;
+  display: block;
 }
 body {
   background-color: azure;
 }
 .full-body {
   display: flex;
-  margin: 200px;
+  justify-content: space-between;
+  align-items: center;
 }
-.login-container {
-  display: flex;
-  flex-direction: column;
-}
+
 .text-container {
   background-color: azure;
+  text-align: start;
+}
+.text-container-txt {
+  font-size: 35px;
+  margin-left: 150px;
+}
+.text-container-txt2 {
+  font-size: 35px;
+  margin-bottom: 200px;
+  margin-left: 150px;
+}
+.right-side {
+  margin-right: 150px;
+  margin-top: 110px;
+}
+.right-side input {
+  padding: 17px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid rgba(161, 154, 154, 0.621);
+}
+.right-side button {
+  color: rgba(255, 255, 255, 0.957);
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(9, 46, 183, 0.748);
+  margin: 10px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 590;
+}
+.right-side button:hover {
+  background-color: rgba(9, 47, 183, 0.681);
+  cursor: pointer;
+}
+.right-side hr {
+  margin: 10px 10px;
+}
+.login-container {
+  border: 1px solid black;
+  background-color: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 25px 3px;
+  width: 460px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+#new-acc-btn {
+  background-color: rgb(20, 193, 69);
+  font-size: 18px;
+  margin-left: 100px;
+  width: 230px;
+  height: 53px;
+}
+#new-acc-btn:hover {
+  background-color: rgb(10, 149, 50);
+  cursor: pointer;
+}
+.forgot-pass {
+  margin: 10px 0px;
+  color: rgba(16, 9, 211, 0.748);
+}
+.forgot-pass:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.last {
+  text-align: center;
+  margin-top: 20px;
+}
+.last b:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
