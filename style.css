@@ -68,7 +68,7 @@ body {
   font-weight: 590;
 }
 .right-side button:hover {
-  background-color: rgba(9, 47, 183, 0.681);
+  background-color: rgba(14, 82, 255, 0.7);
   cursor: pointer;
 }
 .right-side hr {
